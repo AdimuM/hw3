@@ -1,16 +1,3 @@
-# hw3
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Homework #3
+Screens
+The application has five screens, which contain same widgets and from each screen it possible to go to the next screen using Navigator.push(), and in screen5 it is possible also to go back to the screen4 because of used Navigator.pop()
