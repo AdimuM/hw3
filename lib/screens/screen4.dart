@@ -52,10 +52,7 @@ class Screen4 extends StatelessWidget {
                       SizedBox(height: 50),
                       ElevatedButton(
                         onPressed: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (context) => Screen5()),
-                          );
+                          Navigator.pushNamed(context,'/screen5');
                         }, child: const Text('Go to the screen5'),
                       ),
                     ],
